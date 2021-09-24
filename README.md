@@ -19,14 +19,14 @@ Dataset4:circAtlas;
 Dataset5: CircFunBase.
 
 2.code
-getData.py
-AnalyseFASTA.py
-basic_units.py
-Deal_Kmer.py
-DProcess.py
-attention.py
-multi_adaboost_CNN.py
-GMNN2CD.py
+similarity1.py
+similarity1.py
+association_matrix3.py
+gaussianSimilarity4.py
+descriptor5.py
+buildTrainset6.py
+mmodels.py
+fivefold.py
 
 The tool is developed for circRNA-RBP interaction sites identification using deep hierarchical network
 ![image](https://github.com/nmt315320/CRBPDL/Architecture.png)
@@ -39,7 +39,7 @@ The tool is developed for circRNA-RBP interaction sites identification using dee
 - Ubuntu 18.04 (64-bit)
 # Usage
 
-command: python GMNN2CD.py 
+command: python fivefold.py 
 
 You can train the model of 5-fold cross-validation with a very simple way by the command blow:  
 
