@@ -25,16 +25,23 @@ Dataset5: CircFunBase.
 
 2.code
 similarity1.py
+
 similarity1.py
+
 association_matrix3.py
+
 gaussianSimilarity4.py
+
 descriptor5.py
+
 buildTrainset6.py
+
 mmodels.py
+
 fivefold.py
 
 The tool is developed for circRNA-RBP interaction sites identification using deep hierarchical network
-![image](https://github.com/nmt315320/CRBPDL/Architecture.png)
+![image](https://github.com/nmt315320/GMNN2CD/Architecture.png)
 # Requirements
 - Python 3.7 (64-bit)
 - Keras 2.2.0 in Python
