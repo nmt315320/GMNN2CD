@@ -12,8 +12,11 @@ You should have received a copy of the GNU General Public License along with thi
 #Type: Package
 
 Files: 1.data
-circRNA-RBP:37 datasets
-lnRNA-RBP :31 datasets
+Dataset1:circR2Disease;
+Dataset2:Circ2Disease;
+Dataset3: circRNA disease;
+Dataset4:circAtlas;
+Dataset5: CircFunBase.
 
 2.code
 getData.py
@@ -23,7 +26,7 @@ Deal_Kmer.py
 DProcess.py
 attention.py
 multi_adaboost_CNN.py
-CRBPDL.py
+GMNN2CD.py
 
 The tool is developed for circRNA-RBP interaction sites identification using deep hierarchical network
 ![image](https://github.com/nmt315320/CRBPDL/Architecture.png)
@@ -36,13 +39,10 @@ The tool is developed for circRNA-RBP interaction sites identification using dee
 - Ubuntu 18.04 (64-bit)
 # Usage
 
-command: python CRBPDL.py --RBPID AGO1
+command: python GMNN2CD.py 
 
 You can train the model of 5-fold cross-validation with a very simple way by the command blow:  
-*Python CRBPDL.py* and make sure the RNA embedding flag is set to circRNA_model. The script of if **name == "main"** calls training process which trains several models of each model type for a circRNA and finds the best set of hyperparameters. The main function then trains the models several times (num_final_runs) and saves the best model.
 
-You can also test the linear-RNA model of 5-fold cross-validation, and make sure the RNA embedding flag is set to linRNA2Vec_model and the file path is set to *linRNA-RBP*.
-The prediction results will be displayed automatically. If you need to save the results, please specify the path yourself. Thank you and enjoy the tool!
 
  If you have any suggestions or questions, please email me at *yunzeer@gmail.com*.
 
