@@ -1,7 +1,8 @@
 # GMNN2CD
 
 #License
-Copyright (C) 2021 Mengting Niu(yunzeer@gmail.com)
+Copyright (C) 2021 Mengting Niu(yunzeer@gmail.com) 
+It can be used for free academically, if there is commercial use, you can contact us by email.
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 
